@@ -8,7 +8,7 @@ const salesRoutes = require('./routes/slaes.routes.js')
 const cors = require('cors')
 
 app.use(cors({
-      origin: "https://mini-jwt-auth-frontend.vercel.app/",
+      origin: "https://mini-jwt-auth-frontend.vercel.app",
     credentials: true
 }))
 app.use(express.json());
